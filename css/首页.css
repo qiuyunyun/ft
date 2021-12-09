@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 微软雅黑;
+    background-color: #f3f3f3;
+    max-width: 64rem;
+    font-size: 62.5%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
+
+/* 轮播图 */
+
+.swiper {
+    width: 100%;
+    height: 11.5rem;
+}
+
+.swiper img {
+    width: 100%;
+    height: 11.5rem;
+}
+
+
+/* 分类 */
+
+.main1 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 3%;
+    float: left;
+}
+
+.main1 a {
+    float: left;
+    width: 30%;
+    margin-left: 2.3%;
+    margin-top: 3%;
+    position: relative;
+    padding-bottom: 28%;
+    height: 0;
+    border-radius: 5px;
+}
+
+.main1 img {
+    margin: 0 auto;
+    width: 46%;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+}
+
+.main1 span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    bottom: 10%;
+    font-size: 1rem;
+}
+
+.i0 {
+    background-color: #00d4e7;
+}
+
+.i1 {
+    background-color: #92cf68;
+}
+
+.i2 {
+    background-color: #58b5e1;
+}
+
+.i3 {
+    background-color: #fcc954;
+}
+
+.i4 {
+    background-color: #f7774a;
+}
+
+.i5 {
+    background-color: #fa6567;
+}
+
+.i6 {
+    background-color: #c961ab;
+}
+
+.i7 {
+    background-color: #bd72f7;
+}
+
+.i8 {
+    background-color: #61a7fe;
+}
+
+.i9 {
+    background-color: #0bbebb;
+}
+
+.i10 {
+    background-color: #01c2df;
+}
