@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精彩表演</title>
+    <link rel="stylesheet" href="./css/精彩表演.css">
+    <link rel="stylesheet" href="./css/top.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <script src="./js/移动端改变大小.js"></script>
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="top">
+        <a class="topl" onclick="javascript:history.back(-1);">返回</a>
+        <img src="images/zlogo.png" class="logo" />
+        <a href="#" class="topr">在线<br/>购票</a>
+    </div>
+
+    <!-- 精彩表演 -->
+    <div class="smain" id="getShow">
+        <div class="hmain1"><span class="mtitle">精彩表演</span></div>
+        <h3>飞翔之歌</h3>
+        <span>Bubble Ballet</span>
+        <!-- 轮播图 -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/show1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/show2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/show3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/show4.jpg" />
+                </div>
+            </div>
+
+            <!-- 分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <section>
+            大型原创魔幻秀——《飞翔之歌》，将丰富的科技手段和文化的现实意义巧妙结合，惟妙惟肖地描述了人类肆意开发自然背景下鸟类的生活变迁和情感波动，生动而深刻地阐释了生态保护的主题。全剧拥有全彩LED铺就的高科技视觉台面和上千个魔球组成的立体表演空间，色彩绚丽，场景宏阔，魔幻般地创造了一种新颖时尚的娱乐视野。
+        </section>
+    </div>
+    <script src="./js/swiper-bundle.min.js"></script>
+</body>
+
+</html>
+<!-- <script type="text/javascript">
+    $(function() {
+        getShow();
+
+        var swiper0 = new Swiper('.swiper-container0', {
+            // pagination: '.swiper-pagination',
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            effect: 'cube',
+            grabCursor: true,
+            autoplay: 2000,
+            loop: true,
+            cube: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.5,
+
+            }
+        });
+    });
+</script> -->
+
+<script>
+    var mySwiper = new Swiper('.swiper', {
+        // direction: 'vertical', // 垂直切换选项
+        // loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // pagination: '.swiper-pagination',
+        effect: 'cube',
+        grabCursor: true,
+        autoplay: 1000,
+        loop: true,
+        cube: {
+            shadow: false,
+            // slideShadows: false,
+            shadowOffset: 20,
+            shadowScale: 0.5,
+        },
+        autoplay: {
+            delay: 2000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+
+    })
+</script>
