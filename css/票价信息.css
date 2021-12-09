@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 微软雅黑;
+    background-color: #f3f3f3;
+    max-width: 64rem;
+    font-size: 62.5%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* 清除浮动 */
+
+.clear {
+    clear: both;
+}
+
+
+/*票价信息*/
+
+.pj1 section {
+    padding: 3% 2%;
+    width: 90%;
+    margin: 0.7rem auto;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pj1 img {
+    width: 20%;
+    margin-right: 5%;
+    float: left;
+}
+
+.pjdiv {
+    float: left;
+    color: #9ea6b2;
+    width: 74%;
+    font-size: 0.8rem;
+}
+
+.pj1 h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    float: left;
+    color: #332e45;
+    margin: 0 0 0.6rem 0;
+}
+
+.pj1 h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    float: right;
+    color: #ff473e;
+    margin: 0;
+}
+
+.pj1_section {
+    padding: 3% 2%;
+    width: 90%;
+    margin: 0.7rem auto;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pj1_section img {
+    width: 20%;
+    margin-right: 5%;
+    float: left;
+}
+
+.pjdiv {
+    float: left;
+    color: #9ea6b2;
+    width: 74%;
+    font-size: 0.8rem;
+}
+
+.pj1_section h2 {
+    font-size: 1rem;
+    float: left;
+    color: #332e45;
+    margin: 0 0 0.6rem 0;
+}
+
+.pj1_section h3 {
+    font-size: 1rem;
+    float: right;
+    color: #ff473e;
+    margin: 0;
+}
