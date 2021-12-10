@@ -89,3 +89,8 @@ li {
     height: 7rem;
     text-indent: 2em;
 }
+
+.swiper .swiper-pagination-bullet-active {
+    border: 1px solid #5abefe !important;
+    background-color: #fff !important;
+}

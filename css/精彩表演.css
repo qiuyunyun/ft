@@ -104,3 +104,8 @@ a {
 /* :root {
     --swiper-theme-color: #ffffff;
 } */
+
+.swiper .swiper-pagination-bullet-active {
+    border: 1px solid #5abefe !important;
+    background-color: #fff !important;
+}
