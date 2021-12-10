@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/营业时间.css">
     <link rel="stylesheet" href="./css/top.css">
     <script src="./js/移动端改变大小.js"></script>
+    <link rel="stylesheet" href="./css/悬浮球.css">
 </head>
 
 <body>
@@ -19,6 +20,26 @@
         <a href="#" class="topr">在线<br/>购票</a>
     </div>
 
+    <div class="assistive-wrap">
+        <img src="images/mcaidan.png" class="mcaidan" />
+    </div>
+    <div class="fixzz"></div>
+    <!-- 悬浮球 -->
+    <div class="fixmenu">
+        <a class="i0" href="#"><img src="images/i0.png" /><span>首页</span></a>
+        <a class="i1" href="#"><img src="images/i1.png" /><span>营业时间</span></a>
+        <a class="i2" href="#"><img src="images/i2.png" /><span>票价信息</span></a>
+        <a class="i3" href="#"><img src="images/i3.png" /><span>吃喝玩乐</span></a>
+        <a class="i4" href="#"><img src="images/i4.png" /><span>项目介绍</span></a>
+        <a class="i5" href="#"><img src="images/i5.png" /><span>园区导航</span></a>
+        <a class="i6" href="#"><img src="images/i6.png" /><span>精彩表演</span></a>
+        <a class="i7" href="#"><img src="images/i7.png" /><span>推荐路线</span></a>
+        <a class="i8" href="#"><img src="images/i8.png" /><span>停车收费</span></a>
+        <a class="i9" href="#"><img src="images/i9.png" /><span>交通指南</span></a>
+        <a class="i10" href="#"><img src="images/i10.png" /><span>园区介绍</span></a>
+        <a class="i11" href="#"><img src="images/i11.png" /><span>新闻动态</span></a>
+    </div>
+    <script type="text/javascript" src="./js/悬浮球.js"></script>
 
     <!-- 营业时间 -->
     <div class="hmain" id="getInfo">
@@ -37,6 +58,12 @@
             </span> 09:00 - 18:00
         </div>
     </div>
+
+    <script language="javascript">
+        $(function() {
+            getInfo();
+        });
+    </script>
 </body>
 
 </html>
