@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>推荐路线</title>
+    <link rel="stylesheet" href="./css/推荐路线.css">
+    <link rel="stylesheet" href="./css/top.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <script src="./js/移动端改变大小.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="top">
+        <a class="topl" onclick="javascript:history.back(-1);">返回</a>
+        <img src="images/zlogo.png" class="logo" />
+        <a href="#" class="topr">在线<br/>购票</a>
+    </div>
+
+    <!-- 推荐路线轮播图 -->
+    <div>
+        <div class="swiper ">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <div>
+                        <h3>欢乐之旅<a href="#">进入地图路线</a></h3>
+                        <img src="images/routeimg1.jpg" />
+                        <h4>推荐项目</h4>
+                        <p>飞翔之歌 → 转转杯 → 双层转马 → 嘟比脱口秀之十二生肖快乐街 → 熊出没历险记 → 生命之光 → 星球达人秀 → 电影魔术大揭秘 → 聊斋 → 海螺湾</p>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div>
+                        <h3>惊险之旅<a href="#">进入地图路线</a></h3>
+                        <img src="images/routeimg2.jpg" />
+                        <h4>推荐项目</h4>
+                        <p>高空飞翔 → 大摆锤 → 海盗船 → UFO → 空中飞舞 → 飞越极限 → 极地快车 → 暴风眼 → 逃出恐龙岛 → 恐龙危机</p>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div>
+                        <h3>浪漫之旅<a href="#">进入地图路线</a></h3>
+                        <img src="images/routeimg3.jpg" />
+                        <h4>推荐项目</h4>
+                        <p>高空飞翔 → 转转杯 → 熊出没历险记 → 飞越极限 → 电影魔术大揭秘 → 唐古拉雪山 → 聊斋 → 双层转马 → 恐龙危机</p>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div>
+                        <h3>温馨之旅<a href="#">进入地图路线</a></h3>
+                        <img src="images/routeimg4.jpg" />
+                        <h4>推荐项目</h4>
+                        <p>方特城堡（童梦天地） → 海螺湾 → 电影魔术大揭秘 → 星球达人秀 → 生命之光 → 丛林的故事 → 熊出没历险记 → 双层转马 → 转转杯 → 飞翔之歌</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <script src="./js/swiper-bundle.min.js"></script>
+</body>
+
+</html>
+
+<script>
+    var mySwiper = new Swiper('.swiper', {
+        // direction: 'vertical', // 垂直切换选项
+        // loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // pagination: '.swiper-pagination',
+        effect: 'cube',
+        grabCursor: true,
+        autoplay: 1000,
+        loop: true,
+        cube: {
+            shadow: false,
+            // slideShadows: false,
+            shadowOffset: 20,
+            shadowScale: 0.5,
+        },
+        // autoplay: {
+        //     delay: 3000,
+        //     stopOnLastSlide: false,
+        //     disableOnInteraction: true,
+        // },
+
+    })
+</script>
